@@ -1,7 +1,6 @@
 package common
 
 import (
-	"flag"
 	"net"
 )
 
@@ -12,8 +11,8 @@ var (
 
 // ==== 下面的从 .env 更新 ====
 var (
-	PortGRPC = *flag.Int("grpcPort", 9092, "the gRPC listening port")
-	Port     = 8082
+	PortGRPC = 9097
+	Port     = 8087
 	IP       = "127.0.0.1"
 )
 var (
