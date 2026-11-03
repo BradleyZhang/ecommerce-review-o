@@ -1,12 +1,13 @@
 module github.com/BradleyZhang/ecommerce-review-o
 
-go 1.27.3
+go 1.26.9
 
 require (
 	buf.build/gen/go/bufbuild/protovalidate/protocolbuffers/go v1.36.12-20260825204119-511051f7f437.2
 	buf.build/go/protovalidate v1.4.0
 	github.com/grpc-ecosystem/go-grpc-middleware/v2 v2.3.4
 	github.com/grpc-ecosystem/grpc-gateway/v2 v2.33.0
+	github.com/hashicorp/consul/api v1.34.4
 	github.com/joho/godotenv v1.5.1
 	github.com/mbobakov/grpc-consul-resolver v1.5.4
 	google.golang.org/genproto/googleapis/api v0.0.0-20261026165753-2ffab32bce7e
@@ -23,7 +24,6 @@ require (
 	github.com/fatih/color v1.19.0 // indirect
 	github.com/go-playground/form/v4 v4.5.0 // indirect
 	github.com/go-viper/mapstructure/v2 v2.5.0 // indirect
-	github.com/hashicorp/consul/api v1.34.4 // indirect
 	github.com/hashicorp/errwrap v1.1.0 // indirect
 	github.com/hashicorp/go-cleanhttp v0.5.2 // indirect
 	github.com/hashicorp/go-hclog v1.6.3 // indirect
